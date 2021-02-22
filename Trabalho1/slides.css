@@ -1,0 +1,75 @@
+.slider{
+    height: 500px;
+    width: 1280px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.slider li{
+    list-style: none;
+    position: absolute;
+}
+
+.slider img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+    
+    
+}
+
+.slider  input{
+    display: none;
+    
+}
+
+.slider label{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 10px;  
+    transition-duration: 10s;
+    
+}
+
+
+.slider li:nth-child(1) label{
+    left: 10px;
+}
+.slider li:nth-child(2) label{
+    left: 40px;
+}
+.slider li:nth-child(3) label{
+    left:70px;
+}
+
+.slider img{
+    visibility: hidden;
+    
+}
+
+.slider li input:checked ~ img{
+    visibility: visible;
+    z-index: 10;
+}
+
+.slider li input:checked ~ label{
+    background-color: black;
+}
+
+.slider h2{
+    visibility: hidden;
+    position: absolute;
+}
+.slider h2 input:checked ~img{
+    visibility: visible;
+    z-index: 10;
+}

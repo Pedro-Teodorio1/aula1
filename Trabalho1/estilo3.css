@@ -1,0 +1,214 @@
+.MenuTopo{
+    background: #2a74dd;
+    position:sticky ;
+    height: 100%;
+    z-index: 3;
+}
+
+.Logo{
+    text-align: center;
+    padding: 6px;
+      
+}
+
+
+.menu{
+    list-style:none;
+    border:0px solid #c0c0c0;
+    margin: 7px;
+    padding-left: 0px;
+    z-index: 4;
+
+    
+    }
+    
+
+.test1{
+        position: absolute;
+        top:4px;
+        z-index: 4;
+}
+
+.menuP:hover{
+        position: relative;
+        float: left;
+        background-color :transparent;
+        
+        -webkit-transform: rotateZ(-90deg);
+        -ms-transform: rotateZ(-90deg);
+        transform: rotateZ(-90deg);
+        
+
+
+ }
+
+.menu{
+        list-style:none;
+           
+            }
+            
+            
+ .menu li{
+            position: relative;
+            float: left;
+            border-radius: 5px;
+}
+            
+.menu li a{
+             color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            display:block;
+            text-align: center;
+            border-radius: 5px;
+            transform: none;
+}
+            
+            
+ .menu li a:hover{
+                text-shadow: 0px 0px 5px #fff;
+}
+            
+.menu li  ul{
+            position:absolute;
+            right:0px;
+            display:none;
+            border-radius: 5px;
+            transition: none;          
+}
+ .menu li:hover ul, .menu li.over ul{display:block;}
+            
+            
+.menu li ul li{
+        border:1px solid #bababaec;
+         display: block;
+         width: 262px;
+                      
+}
+        
+
+    
+.norotate{
+    -webkit-transform: rotateZ(90deg);
+     -ms-transform: rotateZ(90deg);
+     transform: rotateZ(90deg);             
+}
+
+.fundo{
+    background-color: #2a74dd;
+}
+
+.Titulo{
+    margin-top: 75px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 38px;
+    color: rgb(130, 116, 116);
+
+    
+}
+
+p{
+    margin-top: 40px;
+    font-size: 25px;
+    
+}
+
+.card {
+    background: #fafafa;
+    width: 640px;
+    margin-top: 50px;
+    height: 400px;
+    border-radius: 20px;
+    float: right;
+    margin-left: 11px;
+    margin-right: 7px;
+}
+
+.card-cabecalho{
+	margin:13px;
+	
+}
+
+.card-corpo{
+    height: 360px;
+    width: 600px;
+    margin: auto;
+    
+}
+
+.player_video{
+    border-radius: 20px;
+    height: 360px;
+    width: 600px;
+    margin-top: 7px;
+}
+
+
+.conteudo{
+	display: flex;
+    flex-wrap: wrap;
+    margin-top: 250px;
+    margin-left: 185px;
+}
+
+.conteudo img{
+    border-radius: 20px;
+    margin-top: 0px ;
+}
+
+.card1 {
+    background: #fafafa;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+.card-corpo{
+    height: 30px;
+    width: 600px;
+    border-radius: 20px;   
+}
+.card-rodape{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 310px;
+    text-align: center;
+    color: rgb(130, 116, 116);
+    font-size: 18px;
+}
+
+.card-rodape p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.roda{
+    margin-top:150px;
+    margin-bottom: 0px;
+    background: #2a74dd;
+    position: sticky; 
+    height: 100%;
+}
+
+.roda p{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
